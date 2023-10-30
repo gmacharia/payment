@@ -6,12 +6,10 @@ package com.cellualnt.postpayment.service;
 
 import com.cellualnt.postpayment.config.Properties;
 import com.cellualnt.postpayment.dto.request.PayloadDTO;
-import com.cellualnt.postpayment.dto.request.RequestPayload;
 import com.cellualnt.postpayment.dto.response.ResponseDTO;
 import com.cellualnt.postpayment.impl.PostPaymentSvcImp;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import lombok.AllArgsConstructor;
